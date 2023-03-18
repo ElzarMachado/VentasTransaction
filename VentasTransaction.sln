@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentasTransaction", "VentasTransaction\VentasTransaction.csproj", "{D8727811-4EC0-4DFD-95E3-1DFE30238A3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{850D05BF-59DA-4703-B0E8-E72862C40A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D8727811-4EC0-4DFD-95E3-1DFE30238A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8727811-4EC0-4DFD-95E3-1DFE30238A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8727811-4EC0-4DFD-95E3-1DFE30238A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850D05BF-59DA-4703-B0E8-E72862C40A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850D05BF-59DA-4703-B0E8-E72862C40A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850D05BF-59DA-4703-B0E8-E72862C40A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850D05BF-59DA-4703-B0E8-E72862C40A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
