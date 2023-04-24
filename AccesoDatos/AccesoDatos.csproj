@@ -43,8 +43,9 @@
   <ItemGroup>
     <Compile Include="Cliente.cs" />
     <Compile Include="Conexion.cs" />
-    <Compile Include="Existencia.cs" />
     <Compile Include="Folio.cs" />
+    <Compile Include="Producto.cs" />
+    <Compile Include="ProductoExistencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Venta.cs" />
     <Compile Include="VentaDetalle.cs" />

@@ -8,5 +8,6 @@ namespace AccesoDatos
 {
     internal class Folio
     {
+
     }
 }
