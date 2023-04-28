@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace AccesoDatos
 {
-    internal class Folio
+    public class Folio
     {
-
+        public int Id { get; set; }
+        public int Folio { get; set;}
     }
 }

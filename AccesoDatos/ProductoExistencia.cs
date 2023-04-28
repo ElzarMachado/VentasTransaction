@@ -5,7 +5,7 @@ namespace AccesoDatos
 {
     public class ProductoExistencia
     {
-        public void ACtualizarExistencia(SqlConnection con, SqlTransaction transaction, VentaDetalle concepto)
+        public void ActualizarExistencia(SqlConnection con, SqlTransaction transaction, VentaDetalle concepto)
         {
             string query = "Update Existencias " +
                                 "set Existencias = Existencia-@Cantidad " +
