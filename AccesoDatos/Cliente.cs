@@ -12,7 +12,6 @@ namespace AccesoDatos
         {
             try
             {
-                // Query para insertar un cliente nuevo //
                 string query = "INSERT INTO Clientes" +
                     "(Nombre) " +
                     "VALUES" +
@@ -44,7 +43,6 @@ namespace AccesoDatos
         {
             try
             {
-                // Query para Borrar un cliente //
                 string query = "DELETE FROM Clientes where Id = @Id";
 
                 using (SqlConnection con = new SqlConnection(query))
@@ -72,7 +70,6 @@ namespace AccesoDatos
         {
             try
             {
-                // Query para Actualizar un cliente //
                 string query = "UPDATE Clientes SET Nombre = @Nombre";
 
                 using (SqlConnection con = new SqlConnection(query))
