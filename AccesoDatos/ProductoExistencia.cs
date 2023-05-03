@@ -23,7 +23,7 @@ namespace AccesoDatos
             }
         }
 
-        public void AgregarExistenciaENCero(SqlConnection con, SqlTransaction transaction, int productoId)
+        public void AgregarExistenciaEnCero(SqlConnection con, SqlTransaction transaction, int productoId)
         {
             string query = "Insert Into Existencias (Existencia, ProductoId) VALUES (0, @ProductoId)";
 

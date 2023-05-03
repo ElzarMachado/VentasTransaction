@@ -44,7 +44,7 @@
     <Compile Include="AccesoProductos.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="Conexion.cs" />
-    <Compile Include="Folio.cs" />
+    <Compile Include="FolioS.cs" />
     <Compile Include="Producto.cs" />
     <Compile Include="ProductoExistencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
