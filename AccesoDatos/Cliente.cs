@@ -4,11 +4,11 @@ using System.Data;
 
 namespace AccesoDatos
 {
-    public class Clientes
+    public class Cliente
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public void NuevoCliente(Clientes cliente)
+        public void NuevoCliente(Cliente cliente)
         {
             try
             {
@@ -66,7 +66,7 @@ namespace AccesoDatos
                 throw new Exception(ex.Message);
             }
         }
-        public void ActualizarCliente(Clientes cliente)
+        public void ActualizarCliente(Cliente cliente)
         {
             try
             {
